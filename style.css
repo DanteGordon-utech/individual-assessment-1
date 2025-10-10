@@ -1,0 +1,116 @@
+:root{
+    --text-color: blue;
+    --contrast-color: gray;
+    --text-contrast-color: rgb(199,199,199);
+    --footer-color: rgb(31, 41, 55);
+}
+
+*{
+    /*border: 1px solid red;*/
+}
+
+header{
+    box-shadow: 0px 3px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+body{
+    margin: 1px;
+}
+
+header nav{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+header nav p{
+    color: var(--text-color);
+}
+
+header nav #resume-button{
+    color: white;
+    background-color: var(--text-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+header nav a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#resume-button a{
+    color: white;
+}
+
+header nav a:visited{
+    color: var(--text-color);
+}
+
+main section h1 span{
+    color: var(--text-color);
+}
+
+#about-me p{
+    margin: 5px;
+    width: 500px;
+}
+
+#about-me p span{
+    color: var(--text-color);
+}
+
+#profile-photo{
+    display: flex;
+    justify-content: center;
+}
+
+#profile-photo img{
+    width: 300px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px gray;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 10px;
+    /*border: 1px solid green;*/
+}
+
+.card{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px -2px var(--text-color);
+    margin: 10px;
+}
+
+.card h2{
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+.card p{
+    margin-left: 10px;
+}
+
+#quote{
+    border-left: 10px solid pink;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}
