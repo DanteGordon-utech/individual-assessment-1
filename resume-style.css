@@ -1,5 +1,11 @@
 :root{
+    --linkedin-color: rgb(79, 70, 229);
+    --github-color: rgb(31, 41, 55);
+    --accent-color: blue;
+}
 
+*{
+    scroll-padding-top: 15px;
 }
 
 header{
@@ -11,9 +17,94 @@ header{
 
 header nav{
     display: flex;
+    position: relative;
     justify-content: space-around;
 }
 
-footer{
+header nav a{
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
 
+a:visited{
+    text-decoration: none;
+}
+
+.header-button{
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#linkedin-button{
+    background-color: var(--linkedin-color);
+}
+
+#github-button{
+    background-color:var(--github-color);
+}
+
+#github-button a, #linkedin-button a{
+    color: white;
+}
+
+.items-list{
+    display: flex;
+    position: relative;
+}
+
+.list-item{
+    background-color: rgb(224, 231, 255);
+    color: rgb(55, 48, 163);
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 10px;
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px gray;
+    transition: box-shadow 200ms;
+}
+
+.card-container:hover{
+    box-shadow: 8px 8px 8px gray, -8px -8px 8px gray;
+}
+
+.card{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: -2px 0px var(--accent-color);
+    margin: 10px;
+}
+
+.qualification{
+    color:blue;
+}
+
+.experience{
+    box-shadow: -4px 0px pink;
+}
+
+.awards{
+    box-shadow: -4px 0px green;
+}
+
+footer{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
 }
