@@ -1,12 +1,13 @@
 :root{
     --text-color: blue;
-    --contrast-color: gray;
-    --text-contrast-color: rgb(199,199,199);
+    --contrast-color: rgb(249, 250, 251);
+    --text-contrast-color: rgb(255,255,255);
     --footer-color: rgb(31, 41, 55);
 }
 
 *{
-    /*border: 1px solid red;*/
+    border: 1px solid red;
+    font-family: sans-serif;
 }
 
 header{
@@ -18,6 +19,11 @@ header{
 
 body{
     margin: 1px;
+    background-color: var(--contrast-color);
+}
+
+main{
+    margin: 30px;
 }
 
 header nav{
@@ -68,19 +74,25 @@ main section h1 span{
     justify-content: center;
 }
 
-#profile-photo img{
+#profile-photo a img{
     width: 300px;
 }
 
 .card-container{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 4px 4px 4px gray, -4px -4px 4px gray;
     border-radius: 10px;
     padding: 30px;
-    margin: 20px 10px;
+    margin: 30px 10px;
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px gray;
+    transition: box-shadow 200ms;
     /*border: 1px solid green;*/
+}
+
+.card-container:hover{
+    box-shadow: 8px 8px 8px gray, -8px -8px 8px gray;
 }
 
 .card{
