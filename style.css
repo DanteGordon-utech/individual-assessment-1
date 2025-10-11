@@ -100,7 +100,7 @@ main section h1 span{
     width: 80%;
     border-radius: 10px;
     border: 1px solid gray;
-    box-shadow: 0px -2px var(--text-color);
+    box-shadow: 0px -6px var(--text-color);
     margin: 10px;
 }
 
