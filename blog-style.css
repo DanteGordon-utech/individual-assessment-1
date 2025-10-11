@@ -59,17 +59,32 @@ a:visited{
     width: 80%;
     border-radius: 10px;
     border: 1px solid gray;
-    box-shadow: 0px -2px var(--text-color);
+    box-shadow: 0px -8px var(--text-color);
     margin: 10px;
 }
 
-.card h2{
-    color: var(--text-color);
-    margin-left: 10px;
+.card h2, .card p
+{
+    text-align: center;
 }
 
-.card p{
+.sub-card{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: -8px 0px var(--text-color);
+    margin: 30px;
+}
+
+.sub-card h2{
+    color: var(--text-color);
     margin-left: 10px;
+    text-align: left;
+}
+
+.sub-card p{
+    margin-left: 10px;
+    text-align: left;
 }
 
 footer{
