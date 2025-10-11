@@ -118,6 +118,12 @@ main section h1 span{
     padding-left: 20px;
 }
 
+.hero{
+    padding: 30px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
 footer{
     background-color: var(--footer-color);
     display: flex;
