@@ -6,6 +6,11 @@
 
 *{
     scroll-padding-top: 15px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 1px;
 }
 
 header{
@@ -13,6 +18,7 @@ header{
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index: 100;
 }
 
 header nav{
@@ -36,6 +42,11 @@ a:visited{
     margin: 0px;
     text-align: center;
     border-radius: 10px;
+    transition: box-shadow 200ms;
+}
+
+.header-button:hover{
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px gray;
 }
 
 #linkedin-button{
@@ -87,8 +98,24 @@ a:visited{
     margin: 10px;
 }
 
+.card h3, p{
+    margin: 10px;
+}
+
 .qualification{
+    font-weight:800;
+}
+
+.school{
     color:blue;
+}
+
+#club-name{
+    color: pink;
+}
+
+.technologies{
+    color: blue;
 }
 
 .experience{

@@ -1,0 +1,83 @@
+:root{
+    --text-color: blue;
+    --contrast-color: rgb(249, 250, 251);
+    --text-contrast-color: rgb(255,255,255);
+    --footer-color: rgb(31, 41, 55);
+}
+
+*{
+    /*border: 1px solid red;*/
+    font-family: sans-serif;
+    scroll-padding-top: 20px;
+}
+
+*{
+    border: 1px solid red;
+}
+
+.card-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px 10px;
+    box-shadow: 4px 4px 4px gray, -4px -4px 4px gray;
+    transition: box-shadow 200ms;
+    /*border: 1px solid green;*/
+}
+
+header{
+    box-shadow: 0px 3px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+header nav{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+header nav a{
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.card-container:hover{
+    box-shadow: 8px 8px 8px gray, -8px -8px 8px gray;
+}
+
+.card{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px -2px var(--text-color);
+    margin: 10px;
+}
+
+.card h2{
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+.card p{
+    margin-left: 10px;
+}
+
+footer{
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}
