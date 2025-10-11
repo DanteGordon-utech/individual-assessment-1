@@ -69,14 +69,13 @@ a:visited{
 }
 
 .sub-card{
-    width: 80%;
     border-radius: 10px;
     border: 1px solid gray;
     box-shadow: -8px 0px var(--text-color);
     margin: 30px;
 }
 
-.sub-card h2{
+.sub-card h3{
     color: var(--text-color);
     margin-left: 10px;
     text-align: left;
