@@ -19,7 +19,7 @@ header{
 }
 
 body{
-    margin: 1px;
+    margin: 10px;
     background-color: var(--contrast-color);
 }
 
@@ -27,13 +27,19 @@ main{
     margin: 30px;
 }
 
-header nav{
+header nav ul{
     display: flex;
     position: relative;
     justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
 }
 
-header nav p{
+li{
+    margin: 10px;
+}
+
+header nav li{
     color: var(--text-color);
 }
 

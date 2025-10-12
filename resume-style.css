@@ -11,7 +11,7 @@
 }
 
 body{
-    margin: 1px;
+    margin: 10px;
 }
 
 header{
@@ -22,10 +22,16 @@ header{
     z-index: 100;
 }
 
-header nav{
+header nav ul{
     display: flex;
     position: relative;
     justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
 }
 
 header nav a{

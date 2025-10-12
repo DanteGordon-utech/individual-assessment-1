@@ -11,8 +11,8 @@
     scroll-padding-top: 20px;
 }
 
-*{
-    font-family: sans-serif;
+body{
+    margin: 10px;
 }
 
 .card-container{
